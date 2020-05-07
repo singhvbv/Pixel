@@ -1,3 +1,2 @@
-@@ -0,0 +1,2 @@
 *.js linguist-language=NodeJs
 *main.js linguist-language=Electron
