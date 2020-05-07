@@ -1,2 +1,2 @@
-*.js linguist-language=NodeJs
-*main.js linguist-language=Electron
+* linguist-vendored
+*.js linguist-vendored=false
