@@ -1,0 +1,46 @@
+{
+  "name": "Pixel",
+  "version": "1.0.0",
+  "description": "Pixel is GUI Desktop application for bulk downloading images from Pexel and Unsplash.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "serve": "nodemon --watch * --exec electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "dist-all": "electron-builder -mw"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "images",
+    "unsplash",
+    "pexels",
+    "download"
+  ],
+  "author": "Vaibhav Singh",
+  "license": "MIT OR Apache-2.0)",
+  "devDependencies": {
+    "electron": "^8.2.4",
+    "electron-builder": "^22.6.0",
+    "nodemon": "^2.0.3"
+  },
+  "build": {
+    "appId": "com.vaibhav.pixel",
+    "win": {
+      "target": "nsis",
+      "icon": "icon.png"
+    },
+    "mac": {
+      "target": "dmg",
+      "icon": "icon.png"
+    }
+  },
+  "dependencies": {
+    "electron-progressbar": "^1.2.0",
+    "internet-available": "^1.0.0",
+    "node-fetch": "^2.6.0",
+    "store": "^2.0.12",
+    "validator": "^13.0.0"
+  }
+}

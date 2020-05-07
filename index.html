@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+
+  
+    <title>Pixel</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/default.css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/component.css" />
+    <script src="assets/js/modernizr.custom.js"></script>
+    
+  </head>
+  <include src="./header.html"></include>
+	<body class="nl-blurred fade">
+		<div class="container">
+
+			<div class="main clearfix">
+				<form id="nl-form" class="nl-form">
+         <div class="gap"></div>
+					I want the images of
+          <input type="text" value="" id="search_terms" placeholder="{search term}" data-subline="For example: <em>Grocery</em> or <em>Mountain</em>"/>
+          <p> for multiple search terms , seperate them with comma</p>
+
+       
+					<div class="nl-submit-wrap">
+            <button class="nl-submit" type="button" onclick="check_search_terms();">Next</button>
+            
+					</div>
+					<div class="nl-overlay"></div>
+				</form>
+      </div>
+      
+		</div><!-- /container -->
+    <script src="assets/js/nlform.js"></script>
+    <script src="assets/js/pexel_api_call.js"></script>
+    <script src="assets/js/unsplash_api_call.js"></script>
+    <script>
+      var nlform = new NLForm( document.getElementById( 'nl-form' ) );
+      
+		</script>
+
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+  </body>
+</html>

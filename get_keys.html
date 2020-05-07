@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+  <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+
+
+  <title>Pixel</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/default.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/neomorph.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/component.css" />
+  <script src="assets/js/modernizr.custom.js"></script>
+
+</head>
+
+<body class="nl-blurred fade">
+  <div class="container">
+
+    <div class="main clearfix">
+
+
+      <div class="modal">
+
+        <div class="modal-header">
+          <h4 class="modal-title">API Keys needed</h4>
+        </div>
+        <div class="modal-body">
+          <p>Before proceeding , you need to enter your api keys here</p>
+        </div>
+        <br><br>
+        <p class="p-up">Unsplash Access Key</p>
+        <br>
+        <input id="unsplash_access_key" type="text" placeholder="your unsplash access key" class="input">
+        <p> <a href="https://unsplash.com/developers">Get your unsplash access key from</a></p>
+        <br>
+        <p class="p-up">Pexel API Key</p>
+        <p> <a href="https://www.pexels.com/api/?locale=en-US">Get your pexel api key from</a></p>
+        <br>
+
+        <input id="pexel_api_key" type="text" placeholder="your pexel api key" class="input">
+        <div class="modal-footer">
+          <button class="button" onclick="get_api_key();">Ok</button>
+        </div>
+      </div>
+
+
+
+    </div>
+
+  </div><!-- /container -->
+
+  <!-- You can also require other files to run in this process -->
+  <script src="./renderer.js"></script>
+</body>
+
+</html>

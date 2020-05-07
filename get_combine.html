@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="UTF-8">
+	<!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+
+
+	<title>Pixel</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/default.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/component.css" />
+	<script src="assets/js/modernizr.custom.js"></script>
+
+</head>
+
+<body class="nl-blurred fade">
+	<div class="container">
+
+		<div class="main clearfix">
+			<form id="nl-form" class="nl-form">
+				<div class="gap"></div>
+				Combine Pexels and Unsplash results into one folder ?
+				<select id="get_combine_val">
+					<option value="" selected>-----</option>
+					<option value="combined_result">Yes</option>
+					<option value="uncombined_result">No</option>
+
+				</select>
+
+				<div class="nl-submit-wrap">
+					<a class="nl-submit  btn-margin" type="button" href="get_orientation.html">Back</a>
+					<button class="nl-submit" type="button" onclick="check_combine();">Next</button>
+				</div>
+				<div class="nl-overlay"></div>
+			</form>
+		</div>
+
+	</div><!-- /container -->
+	<script src="assets/js/nlform.js"></script>
+	<script>
+		var nlform = new NLForm(document.getElementById('nl-form'));
+	</script>
+
+	<!-- You can also require other files to run in this process -->
+	<script src="./renderer.js"></script>
+	<script src="assets/js/controller.js"></script>
+	<script src="assets/js/pexel_api_call.js"></script>
+	<script src="assets/js/unsplash_api_call.js"></script>
+</body>
+
+</html>

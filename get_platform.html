@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="UTF-8">
+	<!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+
+
+	<title>Pixel</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/default.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/component.css" />
+	<script src="assets/js/modernizr.custom.js"></script>
+
+</head>
+
+<body class="nl-blurred fade">
+	<div class="container">
+
+		<div class="main clearfix">
+			<form id="nl-form" class="nl-form">
+				<div class="gap"></div>
+				From these website :
+				<select id="get_platform_val">
+					<option value="" selected>-----</option>
+					<option value="both_platform">Pexels,Unsplash</option>
+					<option value="pexels">Pexels</option>
+					<option value="unsplash">Unsplash</option>
+				</select>
+
+
+				<div class="nl-submit-wrap">
+					<a class="nl-submit  btn-margin" type="button" href="index.html">Back</a>
+					<button class="nl-submit" type="button" onclick="check_platform();">Next</button>
+
+				</div>
+				<div class="nl-overlay"></div>
+			</form>
+		</div>
+
+	</div><!-- /container -->
+	<script src="assets/js/nlform.js"></script>
+	<script>
+		var nlform = new NLForm(document.getElementById('nl-form'));
+	</script>
+
+	<!-- You can also require other files to run in this process -->
+	<script src="./renderer.js"></script>
+</body>
+
+</html>
