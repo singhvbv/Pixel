@@ -1,10 +1,8 @@
-<<<<<<< HEAD
+
 # Pixel
-Pixel is GUI Desktop application for bulk downloading images from Pexel and Unsplash. 
-=======
-# Pixel - GUI Royalty Free Images Downloader
 
 Pixel is GUI Desktop application for bulk downloading images from Pexel and Unsplash.
+
 Pixel can download photos from multiple categories at the same time from both Pexel and Unsplash simultaneously . 
 It can also download images from Pexel and Unsplash Seperately . 
 
@@ -128,4 +126,3 @@ See also the list of [contributors](https://github.com/your/project/contributors
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
->>>>>>> Version 1 Commit
