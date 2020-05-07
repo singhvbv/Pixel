@@ -13,7 +13,7 @@ Unsplash as they say - are The internet’s source of freely usable images. Powe
 
 **For Windows** - 
 
-Software Exe is provided under "dist" folder , download and it and you are ready to go.
+Software Exe is provided under "dist" folder , download it and you are ready to go.
 
 **For Mac and Linux** - 
 
