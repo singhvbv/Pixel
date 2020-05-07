@@ -33,7 +33,7 @@ You can get these from here :
 
 1. **Search Term**  - Your search query eg - ***Mountain***  to get the images of Montains . You can also supply multiple search queries
 
-at ones by comma seperations eg:  ***Mountains,Grocery***
+                      at ones by comma seperations eg:  ***Mountains,Grocery***
 
 2. **Quantity** - Amount of images you want to download.
 
@@ -67,7 +67,7 @@ This project is based on  [ElectronJS](https://www.electronjs.org/)  and  [Nodej
 
 Make sure you have Node.js installed.
 
-Visit - * [Node JS](https://github.com/nodejs/node)
+Visit - [Node JS](https://github.com/nodejs/node)
 
 ### Installing
 
