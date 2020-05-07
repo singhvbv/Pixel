@@ -125,7 +125,7 @@ Please read [CONTRIBUTING.md](https://github.com/singhvbv/Pixel/blob/master/CONT
 * **Vaibhav Singh** -  - [Vaibhav Singh](https://singhvbv.github.io/)
 Github -  - [Profile](https://github.com/singhvbv)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/singhvbv/pixel/contributors) who participated in this project.
 
 ## License
 
