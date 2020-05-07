@@ -30,9 +30,9 @@ You can get these from here :
 
 ## Getting Started 
 
-1. **Search Term**  - Your search query eg - *Mountain*  to get the images of Montains . You can also supply multiple search queries
+1. **Search Term**  - Your search query eg - ***Mountain***  to get the images of Montains . You can also supply multiple search queries
 
-at ones by comma seperations eg:  *Mountains,Grocery*
+at ones by comma seperations eg:  ***Mountains,Grocery***
 
 2. **Quantity** - Amount of images you want to download.
 
@@ -62,7 +62,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-This project is based on * [ElectronJS](https://www.electronjs.org/)  and * [Nodejs](https://nodejs.org/en/)
+This project is based on  [ElectronJS](https://www.electronjs.org/)  and  [Nodejs](https://nodejs.org/en/)
 
 Make sure you have Node.js installed.
 
@@ -110,9 +110,9 @@ $ git clone https://github.com/singhvbv/Pixel.git
 
 ![Starting Screen](assets/img/pixel.gif)
 
-![API Screen](assets/img/image1.png)
+![API Screen](assets/img/image1.PNG)
 
-![Search Screen](assets/img/image2.png)
+![Search Screen](assets/img/image2.PNG)
 
 ## Contributing
 
