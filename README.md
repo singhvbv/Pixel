@@ -28,7 +28,7 @@ You can get these from here :
 * [Unsplash Access Key](https://unsplash.com/developers) 
 
 
-##Getting Started 
+## Getting Started 
 
 1. **Search Term**  - Your search query eg - *Mountain*  to get the images of Montains . You can also supply multiple search queries
 
@@ -39,17 +39,17 @@ at ones by comma seperations eg:  *Mountains,Grocery*
 3. **Platform** - Select from which website you want the result :  Pexel , Unsplash or from both.
 
 
-##Steps Available  After Platform selection
+## Steps Available  After Platform selection
 
-###For Pexel :
+### For Pexel :
 
 Select platform >  Select Pexel image size > Select folder to save image
 
-###For Unsplash :
+### For Unsplash :
 
 Select platform > Select Featured Status > Select Orientation > Select folder to save image
 
-###For Pexel/Unsplash Combine :
+### For Pexel/Unsplash Combine :
 
 Select platform > Select Pexel image size > Select Featured Status > Select Orientation > Select folder to save image
 
@@ -109,6 +109,10 @@ $ git clone https://github.com/singhvbv/Pixel.git
 ## Some Screenshots :
 
 ![Starting Screen](assets/img/pixel.gif)
+
+![API Screen](assets/img/image1.png)
+
+![Search Screen](assets/img/image2.png)
 
 ## Contributing
 
