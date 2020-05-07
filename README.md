@@ -11,11 +11,11 @@ Unsplash as they say - are The internet’s source of freely usable images. Powe
 
 ## Usage
 
-**FOR WINDOWS - **
+**FOR WINDOWS** - 
 
 Software Exe is provided under "dist" folder , download and it and you are ready to go.
 
-**For Mac and Linux - **
+**For Mac and Linux** - 
 
 Precompiled files are coming soon . However , you can download this project and run it in your machine directly.
 
