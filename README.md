@@ -115,9 +115,9 @@ $ git clone https://github.com/singhvbv/Pixel.git
 
 ![Search Screen](assets/img/image2.PNG)
 
-![Download Screen](assets/img/image3.png)
+![Download Screen](assets/img/image3.PNG)
 
-![Gallery Screen](assets/img/image4.png)
+![Gallery Screen](assets/img/image4.PNG)
 
 ## Contributing
 
