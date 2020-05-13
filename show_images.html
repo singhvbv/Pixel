@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+
+
+    <title>Pixel</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/gallery.css" />
+
+
+</head>
+
+<article class='gallery' id="gallery_container">
+
+
+
+
+</article>
+<footer id='footer' role='contentinfo'>
+    <div class='container'>
+        <a class='logo' href='index.html' rel='home'>Home</a>
+    </div>
+</footer>
+<!-- You can also require other files to run in this process -->
+<script src="./renderer.js"></script>
+<script>
+
+    var dir = store.get("current_browse_path")
+    var files = fs.readdirSync(dir).forEach(file => {
+
+        document.getElementById('gallery_container').innerHTML += `
+        <button class='gallery-link' id='`+ file + `' onclick='openImage(this.id)'>
+      <figure class='gallery-image'>
+        <img height='1000' src='`+ path.join(dir, file) + `' width='1400'>
+        <figcaption>Photo caption</figcaption>
+      </figure>
+    </button>
+        `;
+
+
+    });
+
+
+</script>
+</body>
+
+</html>

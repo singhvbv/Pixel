@@ -16,6 +16,8 @@ var Constants = require(path.join(__dirname, '../config'))
 const fetch = require('node-fetch')
 const config_path = path.join(__dirname, '../config.js')
 
+
+
 let fieldBlankOptions = {
   message: "Uh oh, seems like there is something wrong with the input or you left it empty."
 }
@@ -70,6 +72,34 @@ function get_api_key() {
 }
 
 function openDir() { remote.shell.openItem(store.get('savePath')) }
+
+function go_Back() { window.history.back() }
+
+
+function browseDir(id) {
+
+  const savePath = store.get('savePath')
+  const currPath = store.get("current_browse_path") ? store.get("current_browse_path") : savePath
+  dir = path.join(currPath, id)
+
+  folders = Array()
+  var is_File = false
+  fs.readdirSync(dir).forEach(file => {
+    fs.existsSync(path.join(dir, file)) && fs.lstatSync(path.join(dir, file)).isDirectory() ? folders.push(file) : is_File = true
+
+  });
+
+  store.set("current_browse_path", path.join(currPath, id))
+  store.set("folders", folders)
+
+  is_File ? remote.getCurrentWindow().loadFile("show_images.html") : remote.getCurrentWindow().loadFile("browse_folder.html")
+
+}
+
+function openImage(id) {
+
+  remote.shell.openItem(path.join(store.get("current_browse_path"), id))
+}
 
 function closeApp() { remote.app.quit() }
 

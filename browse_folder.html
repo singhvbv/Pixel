@@ -17,28 +17,33 @@
 
 			<div class="main clearfix">
 				<div id="nl-form" class="nl-form">
-					<div class="gap"></div>
-                    Downloading Finish .... 
-                    <br>
-                    <button class="nl-submit-directory  btn-margin" type="button" onclick="openDir();">Open Folder</button>	
-                    <button class="nl-submit-directory  btn-margin" id="" type="button" onclick="browseDir(this.id);">Browse Images</button>	
-                    <br><br>
-             
-                    <a class="nl-submit  btn-margin" href="index.html">Download Something Else</a>	
-                    <button class="nl-submit  btn-margin" type="button" onclick="closeApp();">Exit</button>	
-      
-					<div class="nl-overlay"></div>
+				
 				</div>
       </div>
       
+      <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+    <script>
+                       
+        var folders =  store.get('folders')
+        document.getElementById('nl-form').innerHTML += '	<div class="gap"></div> Browse more... <br>';
+        for (var i in folders) {
+            
+            document.getElementById('nl-form').innerHTML +=  `
+        <button class="nl-submit-directory  btn-margin" id ="`+folders[i]+ `" type="button" onclick="browseDir(this.id)">`+folders[i]+`</button><br>`
+          
+        }
+         document.getElementById('nl-form').innerHTML += '<div class="nl-overlay"></div>';
+       
+       </script>
+
 		</div><!-- /container -->
     <script src="assets/js/nlform.js"></script>
     <script>
 			var nlform = new NLForm( document.getElementById( 'nl-form' ) );
 		</script>
    
-    <!-- You can also require other files to run in this process -->
-    <script src="./renderer.js"></script>
+    
     <script src="assets/js/controller.js"></script>
     <script src="assets/js/pexel_api_call.js"></script>
     <script src="assets/js/unsplash_api_call.js"></script>
