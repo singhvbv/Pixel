@@ -115,6 +115,10 @@ $ git clone https://github.com/singhvbv/Pixel.git
 
 ![Search Screen](assets/img/image2.PNG)
 
+![Download Screen](assets/img/image3.PNG)
+
+![Gallery Screen](assets/img/image4.PNG)
+
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://github.com/singhvbv/Pixel/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
