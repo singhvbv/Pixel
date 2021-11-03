@@ -42,6 +42,6 @@
     "internet-available": "^1.0.0",
     "node-fetch": "^2.6.0",
     "store": "^2.0.12",
-    "validator": "^13.0.0"
+    "validator": "^13.7.0"
   }
 }
