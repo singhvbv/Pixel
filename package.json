@@ -40,7 +40,7 @@
     "electron-progressbar": "^1.2.0",
     "image-size": "^0.8.3",
     "internet-available": "^1.0.0",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.7",
     "store": "^2.0.12",
     "validator": "^13.0.0"
   }
